@@ -10,35 +10,35 @@ const Carousel = ({ images }) => {
       <div className='carousel-inner relative w-full overflow-hidden shadow-md shadow-gray-900'>
         <div className='carousel-item active float-left w-full '>
           <img
-            src={`/images/${images}/${images}-1.png`}
+            src={`/myPort/images/${images}/${images}-1.png`}
             className='block w-full rounded-r '
             alt=''
           />
         </div>
         <div className='carousel-item float-left w-full'>
           <img
-            src={`/images/${images}/${images}-2.png`}
+            src={`/myPort/images/${images}/${images}-2.png`}
             className='block w-full rounded-r '
             alt=''
           />
         </div>
         <div className='carousel-item float-left w-full'>
           <img
-            src={`/images/${images}/${images}-3.png`}
+            src={`/myPort/images/${images}/${images}-3.png`}
             className='block w-full rounded-r '
             alt=''
           />
         </div>
         <div className='carousel-item float-left w-full'>
           <img
-            src={`/images/${images}/${images}-4.png`}
+            src={`/myPort/images/${images}/${images}-4.png`}
             className='block w-full rounded-r '
             alt=''
           />
         </div>
         <div className='carousel-item float-left w-full'>
           <img
-            src={`/images/${images}/${images}-5.png`}
+            src={`/myPort/images/${images}/${images}-5.png`}
             className='block w-full rounded-r '
             alt=''
           />
