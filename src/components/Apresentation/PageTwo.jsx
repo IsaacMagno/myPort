@@ -10,7 +10,7 @@ const PageTwo = () => {
         <p className='text-xs md:text-base 2xl:text-3xl font-thin text-gray-800 2xl:mt-1'>
           [ NodeJS, Python, JAVA, MySQL
         </p>
-        <p className='text-xs md:text-base 2xl:text-3xl text-gray-800 flex justify-end'>
+        <p className='text-xs md:text-base 2xl:text-3xl  font-thin text-gray-800 flex justify-end'>
           Javascript, React, Tailwind CSS]
         </p>
       </div>
