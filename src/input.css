@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.noSelect:focus {
+  outline: none !important;
+}
+
+.typed-out {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+}
+
+.typed-out.is-inViewport {
+  animation: typing 1s steps(20, end) forwards;
+}
+
+.typed-out:not(.is-inViewport) {
+  animation: untyping 0.1s steps(20, end) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes untyping {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}

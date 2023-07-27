@@ -1,0 +1,14 @@
+{
+  "doplooncalculator": {
+    "path": "/myPort/images/doplooncalculator",
+    "imageCount": 11
+  },
+  "isaacs-bank": {
+    "path": "/myPort/images/isaacs-bank",
+    "imageCount": 5
+  },
+  "tobias": {
+    "path": "/myPort/images/tobias",
+    "imageCount": 5
+  }
+}
