@@ -11,7 +11,7 @@ const AppRestaurante = () => {
   }, []);
 
   const style = {
-    width: width < 768 ? "60%" : width >= 2560 ? "100%" : "60%",
+    width: width < 768 ? "53%" : width >= 2560 ? "100%" : "60%",
     height: "0px",
     position: "relative",
     paddingBottom: width < 768 ? "175%" : width >= 2560 ? "100%" : "120%",
@@ -79,6 +79,7 @@ const AppRestaurante = () => {
         <video
           ref={targetRef}
           src="videos/phonenew.webm"
+          // src="myPort/videos/phonenew.webm"
           muted
           loop
           style={width >= 2560 ? { width: "50%", height: "auto" } : null}
