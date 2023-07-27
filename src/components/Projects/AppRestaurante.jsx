@@ -78,7 +78,7 @@ const AppRestaurante = () => {
       >
         <video
           ref={targetRef}
-          src="myPort/videos/phonenew.webm"
+          src="/videos/phonenew.webm"
           muted
           loop
           style={width >= 2560 ? { width: "50%", height: "auto" } : null}

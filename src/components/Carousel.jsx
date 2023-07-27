@@ -6,7 +6,6 @@ const Carousel = ({ images }) => {
   const [loadedImages, setLoadedImages] = useState([]);
 
   useEffect(() => {
-    console.log(jsonImages[images].imageCount);
     const imagesStore = [];
 
     for (let i = 1; i < jsonImages[images].imageCount + 1; i++) {
@@ -15,8 +14,6 @@ const Carousel = ({ images }) => {
 
     setLoadedImages([...loadedImages, ...imagesStore]);
   }, []);
-
-  console.log(loadedImages);
 
   return (
     <div

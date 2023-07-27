@@ -65,7 +65,7 @@ const Dronelivery = () => {
           paddingBottom: "56.250%",
         }}
       >
-        <video ref={targetRef} src="myPort/videos/dronelivery.mp4" muted loop />
+        <video ref={targetRef} src="/videos/dronelivery.mp4" muted loop />
       </div>
     </div>
   );
