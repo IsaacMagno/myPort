@@ -22,7 +22,7 @@ const DoploonCalculator = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            site
+            link
           </a>
         </p>
       </div>

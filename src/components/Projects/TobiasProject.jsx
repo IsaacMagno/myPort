@@ -15,8 +15,8 @@ const TobiasProject = () => {
         <p className="mx-2 text-gray-300 font-medium font-sans opacity-90 text-center text-sm lg:font-medium xl:text-base  2xl:text-3xl ">
           Com um banco de dados em MySQL, e a API construida em NodeJS, todos os
           dados são armazenados e requisitados dinamicamente no front-end, que
-          foi construido principalmente utilizando React, e estilizado com
-          Bootstrap e CSS
+          foi construido principalmente utilizando NextJS, e estilizado com
+          TailwindCSS
         </p>
 
         <p className="text-gray-300 font-medium font-sans opacity-90 text-center text-sm mx-2 lg:font-medium xl:text-base lg:text-right 2xl:text-3xl">

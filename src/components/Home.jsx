@@ -44,7 +44,7 @@ const Home = () => {
           Bem vindo!
         </h1>
         <p className="text-xl md:text-3xl 2xl:text-6xl font-bold text-gray-800">
-          Me chamo Isaac, tenho 25 anos
+          Me chamo Isaac, tenho 26 anos
         </p>
         <p className="text-xs 2xl:text-2xl opacity-30  text-right">
           Role para baixo
